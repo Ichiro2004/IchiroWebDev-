@@ -1019,6 +1019,17 @@
       box-shadow: 0 15px 40px rgba(74, 207, 238, 0.5);
     }
 
+    .project-img video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition);
+    }
+
+    .project-card:hover .project-img video {
+      transform: scale(1.1);
+    }
+
     /* Responsive Styles */
     @media (max-width: 1200px) {
       :root {
@@ -1164,20 +1175,6 @@
       z-index: -2;
       pointer-events: none;
     }
-
-
-
-    .project-img video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: var(--transition);
-}
-
-.project-card:hover .project-img video {
-  transform: scale(1.1);
-}
-
   </style>
 </head>
 <body>
@@ -1306,10 +1303,11 @@
     </div>
     
     <div class="projects-grid">
+      <!-- Project 1 -->
       <div class="project-card fade-in-up">
         <div class="project-img">
           <video src="27e84f47-b547-4417-a191-d20398d4061f.mp4" autoplay loop muted playsinline loading="lazy"></video>
-          <img src="GEN TECH.png" alt="Library Management System" loading="lazy">
+          <img src="GEN TECH.png" alt="GEN TECH Project" loading="lazy">
           <div class="project-overlay">
             <div class="project-links">
               <a href="https://ichiro2004.github.io/E-Commerce-Website-MODERN/" target="_blank" class="project-link" aria-label="View Project">
@@ -1336,10 +1334,11 @@
         </div>
       </div>
       
+      <!-- Project 2 -->
       <div class="project-card fade-in-up">
         <div class="project-img">
          <video src="Agent_video_Pippit_20251228171359.mp4" autoplay loop muted playsinline loading="lazy"></video>
-         <img src="CARS.png" alt="Portfolio Project" loading="lazy">
+         <img src="CARS.png" alt="VELOCE STUDIO Project" loading="lazy">
           <div class="project-overlay">
             <div class="project-links">
               <a href="https://ichiro2004.github.io/CARS-WEB/" target="_blank" class="project-link" aria-label="View Project">
@@ -1352,8 +1351,7 @@
           </div>
         </div>
         <div class="project-content">
-          <h3>VELOCE STUDIO PRECISION CAR'S
-</h3>
+          <h3>VELOCE STUDIO PRECISION CAR'S</h3>
           <p>Capturing the essence of luxury automotive engineering through cinematic photography. Specializing in Lamborghini, McLaren, and exclusive hypercars.</p>
           <div class="project-tags">
             <span class="project-tag">HTML</span>
@@ -1366,10 +1364,11 @@
         </div>
       </div>
       
+      <!-- Project 3 -->
       <div class="project-card fade-in-up">
         <div class="project-img">
             <video src="Agent_video_Pippit_20251228181407.mp4" autoplay loop muted playsinline loading="lazy"></video>
-          <img src="POC.png" alt="Online Voting System" loading="lazy">
+          <img src="POC.png" alt="POC STORE Project" loading="lazy">
           <div class="project-overlay">
             <div class="project-links">
               <a href="https://ichiro2004.github.io/POC-STORE/" target="_blank" class="project-link" aria-label="View Project">
@@ -1396,10 +1395,11 @@
         </div>
       </div>
       
+      <!-- Project 4 - NEW PROJECT -->
       <div class="project-card fade-in-up">
         <div class="project-img">
             <video src="7229a301-3ca8-4b87-8689-08820a4429da.mp4" autoplay loop muted playsinline loading="lazy"></video>
-          <img src="AI WEB.png" alt="Tuition Payment System" loading="lazy">
+          <img src="AI WEB.png" alt="NEXUS-AI Project" loading="lazy">
           <div class="project-overlay">
             <div class="project-links">
               <a href="https://ichiro2004.github.io/AI-WEB/" target="_blank" class="project-link" aria-label="View Project">
@@ -1420,6 +1420,131 @@
             <span class="project-tag">JavaScript</span>
             <span class="project-tag">PHP</span>
             <span class="project-tag">MySQL</span>
+          </div>
+          <button class="hero-btn hero-btn-outline" style="width: 100%; margin-top: auto;">
+            <i class="fas fa-info-circle"></i> View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 5 - NEW ADDITION -->
+      <div class="project-card fade-in-up">
+        <div class="project-img">
+          <video src="Agent_video_Pippit_20251229151316.mp4" autoplay loop muted playsinline loading="lazy"></video>
+          <img src="Luxury.png" alt="Finance Dashboard Project" loading="lazy">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://ichiro2004.github.io/Luxury-Website/" target="_blank" class="project-link" aria-label="View Project">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/Ichiro2004" target="_blank" class="project-link" aria-label="View on GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>LUXURY ONLINE SHOP</h3>
+          <p>Discover our exclusive collection of bespoke suits and luxury formal wear, meticulously tailored for the modern gentleman who values sophistication and impeccable style.</p>
+          <div class="project-tags">
+           <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Localstorage</span>
+            <span class="project-tag">DEMO</span>
+          </div>
+          <button class="hero-btn hero-btn-outline" style="width: 100%; margin-top: auto;">
+            <i class="fas fa-info-circle"></i> View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 6 - NEW ADDITION -->
+      <div class="project-card fade-in-up">
+        <div class="project-img">
+         <video src="02176702262256000000000000000000000ffffac19188d7c043f.mp4" autoplay loop muted playsinline loading="lazy"></video>
+          <img src="Library.png" alt="Task Manager Project" loading="lazy">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" target="_blank" class="project-link" aria-label="View Project">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/Ichiro2004" target="_blank" class="project-link" aria-label="View on GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Online Web Library</h3>
+          <p>Explore our curated collection of over 50,000 books. From timeless classics to cutting-edge research, find your next reading adventure with our intelligent recommendation system.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Localstorage</span>
+          </div>
+          <button class="hero-btn hero-btn-outline" style="width: 100%; margin-top: auto;">
+            <i class="fas fa-info-circle"></i> View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 7 - NEW ADDITION -->
+      <div class="project-card fade-in-up">
+        <div class="project-img">
+           <video src="Agent_video_Pippit_20251229154224.mp4" autoplay loop muted playsinline loading="lazy"></video>
+          <img src="Coffee.png" alt="E-Learning Platform" loading="lazy">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://ichiro2004.github.io/Coffee-Shop-Website/" target="_blank" class="project-link" aria-label="View Project">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/Ichiro2004" target="_blank" class="project-link" aria-label="View on GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Brew & Bites Coffee</h3>
+          <p>Freshly roasted coffee, delicious pastries, and a cozy atmosphere that feels like home. Visit us for your daily caffeine fix or a relaxing meal with friends.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Localstorage</span>
+          </div>
+          <button class="hero-btn hero-btn-outline" style="width: 100%; margin-top: auto;">
+            <i class="fas fa-info-circle"></i> View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 8 - NEW ADDITION -->
+      <div class="project-card fade-in-up">
+        <div class="project-img">
+         <video src="Agent_video_Pippit_20251229154900.mp4" autoplay loop muted playsinline loading="lazy"></video>
+          <img src="Bike.pnmg.png" alt="Weather App" loading="lazy">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://ichiro2004.github.io/Bike-Shop/" target="_blank" class="project-link" aria-label="View Project">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/Ichiro2004" target="_blank" class="project-link" aria-label="View on GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>VELOCITY</h3>
+          <p>Experience the pinnacle of road cycling with our exclusive collection of premium road bikes. Engineered for speed, precision, and ultimate riding pleasure.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Demo</span>
           </div>
           <button class="hero-btn hero-btn-outline" style="width: 100%; margin-top: auto;">
             <i class="fas fa-info-circle"></i> View Details
